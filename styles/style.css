@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+}
+h2{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 76px;
+}
+p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.cta-button{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    padding: 22px;
+    color: #005FAC;
+    background-color: #FFF;
+    border-radius: 5px;
+    border: none;
+}
+header{
+    height: 808px;
+    background-image: url('../images/banner/banner3.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #FFF;
+    text-align: right;
+    padding: 0 230px;
+    position: relative;
+}
+.header-text{
+    position: absolute;
+    right: 0;
+    transform: translate(-25%, 35%);
+}
+.p-space{
+    margin: 28px 0;
+}
+.main-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 220px;
+    gap: 80px;
+    margin: 130px 0;
+}
+.main-image img{
+    width: 469px;
+}
+.main-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.main-list i{
+    color: #16D887;
+    margin-right: 14px;
+}
+.my-plans{
+    padding: 0 220px;
+    text-align: center;
+}
+.my-plans h3{
+    margin: 50px 0;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+}
+.plans{
+    display: flex;
+    justify-content: space-between;
+}
+.plan h3{
+    margin: 8px 0;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 35px;
+}
+.banner{
+    margin: 130px 220px;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.banner-text{
+    padding: 24px 64px;
+}
+.banner-text h3{
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 47px;
+    color: #FFF;
+    margin-bottom: 24px;
+}
+footer{
+    padding: 130px 220px;
+    background-color: #151414;
+    color: #FFF;
+    display: flex;
+    gap: 140px;
+}
+.footer-left h2{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+}
+.footer-left p{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+}
+.footer-right form button{
+    background-color: #005FAC;
+    color: #FFF;
+}
+input{
+    width: 325px;
+    height: 64px;
+    border: 1px solid #FFF;
+    border-radius: 5px;
+    background-color: #151414;
+}
+input::placeholder{
+    color: #FFF;
+    padding-left: 12px;
+}
